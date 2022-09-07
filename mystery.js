@@ -1,6 +1,6 @@
 // Whats the console output? And why
 
-// Challange 1
+// Challenge 1
 
 var foo = 1
 var foobar = function () {
@@ -10,7 +10,7 @@ var foobar = function () {
 
 foobar()
 
-// Challange 2
+// Challenge 2
 
 console.log('1' == 1)
 console.log('1' === 1)

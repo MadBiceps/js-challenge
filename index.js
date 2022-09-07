@@ -1,3 +1,3 @@
 
-export function isDeepEqual(first, secound) {
+export function isDeepEqual(first, second) {
 }

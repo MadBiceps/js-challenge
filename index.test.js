@@ -146,38 +146,6 @@ describe('Should handle objects', () => {
             undefined: undefined
         })).toEqual(true)
     });
-
-    test('Should handle not equal objects', () => {
-        expect(isDeepEqual({
-            array: [3, 6, 7, 8, 9, 10],
-            number: 5,
-            string: 'string',
-            nestedArray: [
-                {
-                    test: [1, 2, 3, 4, 5]
-                },
-                {
-                    test: [6, 7, 8, 9, 10]
-                }
-            ],
-            null: null,
-            undefined: undefined
-        }, {
-            array: [3, 6, 7, 8, 9, 10],
-            number: 5,
-            string: 'string',
-            nestedArray: [
-                {
-                    test: [1, 2, 3, 4, 5]
-                },
-                {
-                    test: [6, 7, 8, 9, 11]
-                }
-            ],
-            null: null,
-            undefined: undefined
-        })).toEqual(false)
-    });
 });
 
 describe('Sould handle arrays', () => {
