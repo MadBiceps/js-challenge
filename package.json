@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "test": "jest"
+    "test:array": "jest ./sumArray.test.js",
+    "test:palindrome": "jest ./palindrome.test.js"
   },
   "repository": {
     "type": "git",
